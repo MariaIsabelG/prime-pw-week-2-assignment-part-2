@@ -47,10 +47,17 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called secret and give it no value. We also create a number variable called code and set it to equal to 123. 
+// So, the variable secret has no value, and the number variable code equals to 123.
+// We create a conditional statement that might give the variable secret a value. 
+// We tell the computer that if the number variable code is exactly equal to 123, then the variable secret will be equal to 'super' (making the variable secret a string variable) 
+// In the same conditional we also tell the computer that if code is exactly 123 to also multiply the value of code which is 123 by 2. 
+// Due to the fact that number variable code is exactly equal to 123, then the variable secret is now equal to 'super' and number variable code is now equal to 246.
+// We run another conditional statement that might change the value of secret.
+// We tell the computer that if number variable code is more than 250, then string variable secret must be changed to 'duper'.
+// Due to the fact that number variable code is equal to 246 (making the if/else statement unapplicable), the computer does not change string variable secret.
+// The number variable code has a value of 246, and the string variable secret is equal to 'super'
+// We console log the string variable secret which will read as super.
 
 //CODE
 /*
