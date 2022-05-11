@@ -26,8 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// We create a string variable called name and set it equal to Dane. So, variable name equals Dane.
+// We create a conditional statement to tell the computer which message to console log depending on the name entered. 
+// We tell the computer that if the string variable name is equal to Mary to then console log 'Hi, Mary!'. Else, if the name is equal to anything other than Mary, to then we console log 'How do you do?'
+// Due to the fact that the string variable name is equal to Dane, then the computer will console log 'How do you do'.
 // 
 //
 
