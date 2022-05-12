@@ -142,11 +142,15 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne value. Should be colorOne is equal to blue
 let colorOne = 'red';
+
+// FIX - colorTwo value. Should be colorTwo is equal to red
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+//FIX - colorTwo change is missing. Should add colorTwo is equal to 'purple'
   colorOne = 'purple';
 }
 */
@@ -159,6 +163,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX - Wrong compound conditional symbol. || should be &&
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -172,6 +177,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//FIX - conditional is set up incorrectly. Should be if(age >= minAge) {console.log('enter')} else {console.log('no entry')}
 if(minAge <= age) {
   console.log('no entry');
 } else {
