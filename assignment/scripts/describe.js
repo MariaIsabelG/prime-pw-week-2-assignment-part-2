@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We create a string variable called name and set it equal to Dane. So, variable name equals Dane.
-// We create a conditional statement to tell the computer which message to console log depending on the name entered. 
-// We tell the computer that if the string variable name is equal to Mary to then console log 'Hi, Mary!'. Else, if the name is equal to anything other than Mary, to then we console log 'How do you do?'
-// Due to the fact that the string variable name is equal to Dane, then the computer will console log 'How do you do'.
+// We create string variable name and give it a value of Dane. 
+// We check if name is equal to Mary. 
+// If string variable name is equal to Mary then we will console log 'Hi, Mary!'. Else, if name is equal to anything other than Mary, then we will console log 'How do you do?'
+// Due to the fact that string variable name is equal to Dane, then we console log 'How do you do'.
 // 
 //
 
@@ -47,17 +47,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We create a variable called secret and give it no value. We also create a number variable called code and set it to equal to 123. 
-// So, the variable secret has no value, and the number variable code equals to 123.
-// We create a conditional statement that might give the variable secret a value. 
-// We tell the computer that if the number variable code is exactly equal to 123, then the variable secret will be equal to 'super' (making the variable secret a string variable) 
-// In the same conditional we also tell the computer that if code is exactly 123 to also multiply the value of code which is 123 by 2. 
-// Due to the fact that number variable code is exactly equal to 123, then the variable secret is now equal to 'super' and number variable code is now equal to 246.
-// We run another conditional statement that might change the value of secret.
-// We tell the computer that if number variable code is more than 250, then string variable secret must be changed to 'duper'.
-// Due to the fact that number variable code is equal to 246 (making the if/else statement unapplicable), the computer does not change string variable secret.
-// The number variable code has a value of 246, and the string variable secret is equal to 'super'
-// We console log the string variable secret which will read as super.
+// We create variable secret and give it no value. We also create number variable code and give it the value of 123. 
+// We check if the value of secret is 'super' and if we multiply the value of number variable code by two.
+// If code is equal to exacly 123, the value of secret is set to 'super' and the value of code is multiplied by 2.
+// Number variable code is equal to exactly 123, so variable secret is given the value of 'super' (making variable secret a string variable) and number variable code is now equal to 246.
+// We check if the value of secret will change to 'duper'. 
+// If the value of number variable code is more than 250, then the value of secret is change to 'duper'. 
+// Number variable code is lees than 250, so the value of string variable secret stays as 'super'
+// We console log the string variable secret which will read as 'super'.
 
 //CODE
 /*
@@ -79,10 +76,16 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create boolean variable isStudent and give it the value of true. 
+// We create number variable age and givie it the value of 34.
+// We create number variable zip and give it the value 55407.
+// We check for a message to log based of the following conditionals.
+// If isStudent is true and zip is more than 8000, we log 'You're a student on the West Coast!'
+// If isStudent is false or age is less than 30, we log 'What are your hobbies?'
+// If isStiudent is true, we log 'Welcome to Prime!'
+// Else, we log 'How about the weather?'
+// isStudent is true and zip being less than 8000
+// We console.log 'Welcome to Prime!'
 
 //CODE
 /*
